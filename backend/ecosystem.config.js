@@ -13,7 +13,7 @@ module.exports = {
     {
       name: 'mesto-backend',
       script: './dist/app.js',
-      cwd: `${DEPLOY_PATH}/current/backend`,
+      cwd: '/home/timur/mesto/current/backend',
       autorestart: true,
       restart_delay: 3000,
       env: {
